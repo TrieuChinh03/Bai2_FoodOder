@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_main_course">
+
+    <fragment
+        android:id="@+id/nav_main_course"
+        android:name="dnt.vip.foododer.ui.fragment.maincourse.MainCourseFragment"
+        android:label="@string/menu_main_course"
+        tools:layout="@layout/fragment_main_course">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_drink"
+        android:name="dnt.vip.foododer.ui.fragment.drink.DrinkFragment"
+        android:label="@string/menu_drink"
+        tools:layout="@layout/fragment_drink">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_fruit"
+        android:name="dnt.vip.foododer.ui.fragment.fruit.FruitFragment"
+        android:label="@string/menu_fruit"
+        tools:layout="@layout/fragment_fruit" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_dessert"
+        android:name="dnt.vip.foododer.ui.fragment.fruit.FruitFragment"
+        android:label="@string/menu_dessert"
+        tools:layout="@layout/fragment_dessert" >
+    </fragment>
+
+</navigation>

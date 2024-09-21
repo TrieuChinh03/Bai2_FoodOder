@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FoodOder</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+<!--    menu nav    -->
+    <string name="menu_snack">Đồ ăn vặt</string>
+    <string name="menu_drink">Đồ uống</string>
+    <string name="menu_fruit">Trái cây</string>
+    <string name="menu_dessert">Món tráng miệng</string>
+    <string name="menu_main_course">Món chính</string>
+    <string name="menu_selected_food">Danh sách thực phẩm đã chọn</string>
+
+</resources>
